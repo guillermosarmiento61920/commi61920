@@ -1,0 +1,183 @@
+/*buscar letra para importar*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    color: brown;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 10px;
+}
+
+h4{
+    color: black;
+}
+
+/* formato de precios de productos destacados */
+.prodDestac{
+    text-align: center;
+    font-size: 24px;
+    margin: 15, 100px;
+    border-style: solid;
+    border-color: brown;
+}
+
+/* la cinta que tiene el nombre del super */
+.cintaFondo{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: black;
+    margin: 10px;
+    border-style: double;
+    border-color: black;
+}
+
+.fondoDestacado{
+    background-color: rgb(191, 191, 191);
+}
+
+/* para ocultar y mostrar la barra de busqueda en distintos dispositivos */
+.formDesktop{
+    display: none;
+}
+
+/* fondo del footer */
+.footerFondo{
+    background-color: brown;
+}
+
+/* listas dentro del body sin estilo */
+body nav ul {
+    list-style: none;
+}
+
+/* listas sin decoracion y en color negro */
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* links del footer en negro */
+footer nav a{
+    color: black;
+}
+
+/* para asegurarme el tama;o de los iconos de las redes */
+.redesIcon{
+    height: 40px;
+    width: 40px;
+}
+
+/* para poner los textos al centro */
+.ubicCentro{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/* tam;ao de las imagenes en pagina de productos */
+.productSize{
+    height: auto;
+    width: 100%;
+}
+
+/* tamnao de los destacados en pagina de productos */
+.destacSize{
+    height: auto;
+    width: 100%;
+}
+
+/* tam;ao de las imagenes de carousel */
+.carouselSize{
+    height: auto;
+    width: 50%;
+    align-items: center;
+}
+
+/* aliacion derecha para el copyright */
+.alineacCopy{
+    text-align: end;
+}
+
+/* para el boton de ir arriba */
+.goTop{
+    text-decoration: none;
+    text-align: end;
+}
+
+/* no lo tengo usado creo */
+.inlineDisplay{
+    display: inline;
+    list-style: none;
+}
+
+.motivacion{
+    height: 150px;
+    width: 100%;
+}
+
+.indent1{
+    text-indent: 50px;
+}
+
+.indent2{
+    text-indent: 150px;
+    width: 60%;
+}
+
+.tarjetaIcon{
+    height: 80px;
+    width: 100px;
+}
+
+/* para los productos destacados en index y productos */
+a{
+    text-decoration: none;
+}
+
+/* para los productos destacados en index y productos */
+a p{
+    color: black;
+}
+
+/* clase para grid de html en la pagina productos */
+/* tiene lineas de borde para dimensionar elementos */
+.gridProd{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    /* border: 2px solid black; */
+}
+
+/* clase para cada elemento */
+/* tiene lineas de borde para dimensionar elementos */
+.gridItem{
+    /* border: 1px solid black; */
+    margin: 10%;
+}
+
+/* media queries */
+
+/* MOBILE (320px a 768px  */
+@media screen and (max-width:768px) {
+    .formDesktop{
+        display: block;
+    }
+    
+    .formMobile{
+        display: none;
+    }
+
+    .spLogo{
+        width: 3rem;
+        height: auto;
+    }
+}
